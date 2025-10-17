@@ -5,7 +5,7 @@ function About() {
   return (
     <section id="about" className="about">
       <h2>About Me</h2>
-      <div className="about-content">
+      <div className="about-content about-flex">
         <div className="about-text">
           <p>
             I'm a passionate developer with a love for creating beautiful and functional web applications. 
@@ -18,16 +18,16 @@ function About() {
           </p>
           <div className="stats">
             <div className="stat-item">
-              <h3>5+</h3>
+              <h3>2+</h3>
               <p>Years Experience</p>
             </div>
             <div className="stat-item">
-              <h3>50+</h3>
+              <h3>10+</h3>
               <p>Projects Completed</p>
             </div>
             <div className="stat-item">
-              <h3>30+</h3>
-              <p>Happy Clients</p>
+              <h3>100+</h3>
+              <p>Workhours</p>
             </div>
           </div>
         </div>

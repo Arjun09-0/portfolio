@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import profilePhoto from '../assets/port.jpg';
 
 function Hero() {
   return (
@@ -7,7 +8,7 @@ function Hero() {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">
-            Hello, I'm <span className="gradient-text">Your Name</span>
+            Hello, I'm <span className="gradient-text">NANNURI ARJUN REDDY</span>
           </h1>
           <p className="hero-subtitle">Full Stack Developer & Creative Problem Solver</p>
           <p className="hero-description">
@@ -24,9 +25,7 @@ function Hero() {
           </div>
         </div>
         <div className="hero-image">
-          <div className="image-placeholder">
-            <div className="circle"></div>
-          </div>
+          <img src={profilePhoto} alt="Profile" className="hero-photo" />
         </div>
       </div>
     </section>
